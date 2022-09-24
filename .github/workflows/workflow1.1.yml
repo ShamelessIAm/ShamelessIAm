@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the workflow will run
+# Controls when the workflow will run - this control needs switched to on when ready
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: Windows Windows -latest
+    runs-on: Ubuntu
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -31,7 +31,22 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: echo Add other actions to build,
-             echo test, and deploy your project.
-            
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
           
+# Runs Github Project Manager
+      - name: issue reported
+        uses: actions/add-to-project@v0.3.0
+        with:
+      # URL of the project to add issues to
+             project-url: (https://github.com/project-url)
+      # A GitHub personal access token with write access to the project
+             github-token: none #register for token later
+      # A comma-separated list of labels to use as a filter for issue to be added
+             labeled: (fixed, reported, triaged)
+      # The behavior of the labels filter, AND to match all labels, OR to match any label, NOT to exclude any listed label (default is OR)
+             label-operator: default
+             
+# Need to register for github token and replace none in command line .45             
+ShamelessIAm-workflow_1.1
