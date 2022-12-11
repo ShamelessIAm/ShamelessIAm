@@ -1,7 +1,9 @@
+Engco
+FT4U
+ShamelessIAm
+System-Dysfunc
+We3Bots
 
-Needs: Merchant Bot 
-  - Python: Bot
-  - Bot Wrap: Merchant
-  - mySQL: config
-  
-Accepting suggestions: akwr.88@proton.me
+
+ 
+akwr.88@proton.me
