@@ -1,0 +1,167 @@
+settings.json
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "gitlens.defaultDateFormat": "defaultDateFormat",
+    "projectManager.git.baseFolders": [
+        "folder 3",
+        "ShamelessIAm",
+        "github-slideshow",
+        "We3Bots",
+        "demo-repository",
+        "getting-started",
+        "github repo-shamelessiam",
+    ],
+    "editor.accessibilitySupport": "on",
+    "git.autofetch": true,
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "gitHistory.includeRemoteBranches": true,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "gitHistory.alwaysPromptRepositoryPicker": true,
+    "gitHistory.sideBySide": true,
+    "settingsSync.ignoredExtensions": [
+        "ms-toolsai.jupyter-keymap",
+        "eamodio.gitlens"
+    ],
+    "workbench.editorAssociations": {
+        "*.yml": "workbench.editorinputs.searchEditorInput"
+    },
+    "workbench.editor.enablePreview": true,
+    "settingsSync.ignoredSettings": [
+        "-python.condaPath",
+        "-python.formatting.autopep8Path",
+        "-python.interpreter.infoVisibility",
+        "-python.linting.banditPath",
+        "-python.linting.flake8Path",
+        "-python.venvFolders",
+        "-python.sortImports.path",
+        "-docker.certPath",
+        "-docker.composeCommand",
+        "-python.formatting.yapfPath"
+    ],
+    "python.diagnostics.sourceMapsEnabled": true,
+    "editor.stickyScroll.enabled": true,
+    "workbench.sideBar.location": "right",
+    "firefox.executable": "C:\\Program Files\\Mozilla Firefox",
+    "firefox.keepProfileChanges": true,
+    "firefox.port": 3005,
+    "firefox.profile": "shaneengle437@outlook.com",
+    "firefox.profileDir": "C:\\Users\\EngCo Business\\.vscode\\.vscode\\extensions\\ms-python.vscode-pylance-2022.6.30\\dist\\typeshed-fallback\\stubs\\selenium\\selenium\\webdriver",
+    "python.condaPath": "python.condaPath",
+    "python.formatting.autopep8Args": [
+        "python.formatting.autopep8Args"
+    ],
+    "python.interpreter.infoVisibility": "always",
+    "python.languageServer": "Pylance",
+    "python.linting.banditArgs": [
+        "python.linting.banditArgs"
+    ],
+    "python.linting.banditEnabled": true,
+    "python.linting.cwd": "\"python.linting.cwd\": null",
+    "python.linting.flake8Args": [
+        "python.linting.flake8Args"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.testing.cwd": "",
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": true,
+    "python.venvFolders": [
+        "C:\\Users\\shane\\ComputerManager\\datadiagnostics\\venv\\Lib\\site-packages\\pip\\_internal"
+    ],
+    "python.terminal.focusAfterLaunch": true,
+    "python.sortImports.path": "python.isort.path",
+    "python.tensorBoard.logDirectory": "python.tensorBoard.logDirectory",
+    "editor.foldingMaximumRegions": 5000,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "djangointellisense.debugMessages": true,
+    "djangointellisense.projectRoot": "djangointellisense.projectRoot",
+    "djangointellisense.settingsModule": "\"djangointellisense.settingsModule\":\"\"",
+    "python.autoComplete.extraPaths": [
+
+    ],
+    "remote.portsAttributes": {
+        "3005": {
+            "label": "Django-Intellisense",
+            "elevateIfNeeded": true,
+            "onAutoForward": "openPreview",
+            "requireLocalPort": true
+        },
+
+        "443": {
+            "label": "Application",
+            "onAutoForward": "notify",
+            "protocol": "https",
+            "elevateIfNeeded": true
+        },
+
+        "8443": {
+            "elevateIfNeeded": true,
+            "label": "Application",
+            "protocol":"https",
+            "onAutoForward": "notify"
+        },
+        "8060": {
+            "elevateIfNeeded": false,
+            "label": "Application",
+            "protocol": "https",
+            "onAutoForward": "ignore"
+        }
+    },
+    "githubIssues.ignoreMilestones": [
+        "007E",
+    ],
+    "githubPullRequests.assignCreated": "'${user}'",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "\"githubPullRequests.ignoredPullRequestBranches\": []"
+    ],
+    "githubPullRequests.notifications": "pullRequests",
+    "githubPullRequests.terminalLinksHandler": "vscode",
+    "githubPullRequests.useReviewMode": {
+        "closed": true,
+        "merged": true,
+    },
+    "diffEditor.renderSideBySide": false,
+    "redhat.telemetry.enabled": false,
+    "docker.certPath": "docker.certPath\": \"docker.certPath\"",
+    "docker.commands.attach": "${config:docker.dockerPath} exec -it ${containerId} ${shellCommand}",
+    "docker.commands.logs": "${config:docker.dockerPath} logs --tail 1000 -f ${containerId}",
+    "docker.commands.run": "${config:docker.dockerPath} run --rm -d ${exposedPorts} ${tag}",
+    "docker.commands.runInteractive": "${config:docker.dockerPath} run --rm -it ${exposedPorts} ${tag}",
+    "docker.composeCommand": "\"docker.composeCommand\": \"\"",
+    "docker.containers.description": [
+        "ContainerName",
+        "Status",
+        "Compose Project Name",
+        "ImageId"
+    ],
+    "diffEditor.codeLens": true,
+    "editor.minimap.autohide": true,
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+    "files.autoSaveDelay": 10000,
+    "files.defaultLanguage": "\"files.defaultLanguage\": \"Python\"",
+    "files.insertFinalNewline": true,
+    "files.simpleDialog.enable": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.commandPalette.preserveInput": true,
+    "azureResourceGroups.showHiddenTypes": true,
+    "appService.defaultWebAppToDeploy": "\"appService.defaultWebAppToDeploy\": \"\"",
+    "appService.deploySubpath": "\"appService.deploySubpath\": \"\"",
+    "appService.postDeployTask": "\"appService.postDeployTask\": \"\"",
+    "appService.preDeployTask": "\"appService.preDeployTask\": \"\"",
+    "azure.customCloud.resourceManagerEndpointUrl": "azure.customCloud.resourceManagerEndpointUrl",
+    "azure.ppe": null,
+    "cloudcode.kubectlExecShell": "py",
+    "cloudcode.kubeconfigs": [
+
+    ],
+    "cloudcode.cloudshell.project": "FT4U",
+    "python.linting.flake8CategorySeverity.F": "Hint",
+    "python.linting.pylintCategorySeverity.fatal": "Warning",
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
+}
