@@ -1,4 +1,4 @@
-name: Python package
+name: Python package (tests)
 
 on:
 	[push]
@@ -36,12 +36,11 @@ steps:
     	  continue-on-error: true
 	  
       - name:   Test with pytest
-        run: |
-          	pip install pytest
-    	  	pip install pytest-cov
-	run: | 
-		pytest tests.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
-		pytest tests.py --doctest-modules --junitxml=junit/test-results-{'3.8.10'}.xml
+        run: pip install pytest
+    	  	   pip install pytest-cov
+	
+  run: pytest tests.py --doctest-modules --junitxml=junit/test-results.xml --cov=com --cov-report=xml --cov-report=html
+		   pytest tests.py --doctest-modules --junitxml=junit/test-results-{'3.8.10'}.xml
       
       - name: Upload pytest test results
         uses: actions/upload-artifact@v3
